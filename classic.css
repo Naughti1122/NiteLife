@@ -1,0 +1,81 @@
+body {
+	background-image: url(adam-whitlock-I9j8Rk-JYFM-unsplash.jpg);
+	background-size: cover;
+	width: 100%;
+	background-color: darkblue;
+	background-blend-mode: multiply;
+}
+
+.navbar {
+	width: 100%;
+	display: inline-block;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav h4 {
+	color: white;
+	font-family: 'Lilita One', cursive;
+}
+
+ul li {
+	display: inline-block;
+	list-style: none;
+}
+ul li a {
+	margin: auto 30px;
+	color: white;
+	font-family: 'Jaldi', sans-serif;
+}
+ul li a:hover {
+	background-color: transparent;
+	color: hotpink;
+	border: none;
+	font-weight: bold;
+}
+
+.head {
+	margin-left: 500px;
+}
+.head h3 {
+	margin-top: 10px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Reem Kufi', sans-serif;
+	background-color: darkblue;
+	width: 40%;
+	font-weight: bold;
+	padding: 10px;
+	border: 5px solid white;
+}
+.fa-gratipay {
+	padding: 0px 10px;
+}
+
+.pictures {
+	padding: 20px;
+}
+.row img {
+	width: 100%;
+	height: 70vh;
+	border: 5px double white;
+}
+
+.btn button {
+	color: darkblue;
+	text-align: center;
+	padding: 10px;
+	background-color: white;
+	font-family: 'Reem Kufi', sans-serif;
+	margin-top: 30px;
+	border-radius: 10px;
+	margin-left: 510px;
+	font-size: 30px;
+	border: 5px solid transparent;
+}
+.fa-phone-square-alt {
+	padding: 0px 10px;
+}
